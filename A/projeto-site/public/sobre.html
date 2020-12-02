@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj. Individual | Meu nome aqui</title>
+    <link rel="stylesheet" href="portato.css">
+    <script src="https://kit.fontawesome.com/48b24e7021.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="funcoes.js"></script>
+   
+</head>
+<script>
+
+    let usuario;
+
+    verificar_autenticacao();
+
+    
+</script>
+<body onload="verificar_autenticacao()">
+  
+    <header>
+
+        <div class="alface">  
+            
+                <div class="cabeça-legível">
+                     <h2><span style="color: darkorange;">Marine</span> force</h2>
+                </div>
+            <div class="nav">
+                     <ul>
+                      <li style="display: none;"><a>sobre</a></li>
+                      <li><a href="seviços1.html">ciencia</a></li>
+                     <li><a href="sobre1.html">animais</a></li>
+                     <li onclick="manutencao()"><a>ameaças</a></li>
+                     </ul>
+                </div>
+        </div> 
+    
+    </header>
+    
+    <div class="werw">
+        <div class="pescoço" id="pescoço">
+            <img src = "tortuguita.jpg" style="height: 20%;"> 
+            <div class="sorriso">
+                <p>Somos focados em revelar curiosidades a respeito da vida marinha. O objetivo desse site não é ser exatamente uma enciclopédia,
+                    <br>mas despertar a curiosidade em conhecer como é o oceano e quais os segredos que ela ainda tenta esconder de nós.</p>
+            </div>
+        </div>
+    <div class="descricão">
+        <div class="ciência">
+            <div class="fundo-azul">
+            <img src="pesquisador.jpg" alt="trump" style="height: 30%;"> <p> <span style="font-size: 30px;">Ciência</span> <br><br> 
+                coluna dedicada a revelar curiosidades e descobertas ciêntíficas relacionadas, como também demostrar tamanho contato que todos tem <br>(até aqueles que nunca viram o mar) com o oceano e como nós dependemos muito da existencia dela.
+            <br><br><button style="background-color: rgba(0, 0, 255, 0.618);"><i><a href="seviços1.html" style="color:cornsilk"></i>. clique aqui .</a> </button></p> 
+            </div>
+        </div>
+        <br>
+        <div class="animais">
+            <div class="fundo-verde">
+            <img src="Salmao.jpg" alt="Salmao"> <p> <span style="font-size: 30px;">Animais</span><br><br> coluna dedicada a analises e descrições claras sobres os organismos que habitam o mar, esse canal tem o objetivo de quebrar certos mitos e até exageros criados a partir de visoes equivocadas dos pescadores ou algo do tipo, a prioridade é a compreensão do animal 
+                <br><br><br><button style="background-color:  rgba(4, 112, 16, 0.618);"><i><a href="sobre1.html" style="color:cornsilk"></i>. clique aqui .</a> </button></div></p>
+        </div>
+        <br>
+        <div class="caça">
+            <div class="fundo-vermelho">
+            <img src="caçador.jpg" alt="predador"><p><b>ameaças</b><br><br> Coluna que dedicado aos apontamentos de sintomas que afetam o ecossistema da vida marinha, terá investigações e perseguições aos caçadores ilegais, lugares totalmente afetados pela poluição, e relatos de espécies invasoras(mesmo sendo mar aberto) e mais sujeiras que ocorrem no dia a dia que cada vez mais desestambiliza o oceano<br><br>
+            <button onclick="manutencao()" style="background-color:  rgba(223, 115, 13, 0.618);"><i><a style="color:cornsilk"></i>. clique aqui .</a> </button></div></p>
+            </div>
+        </div> 
+    
+    <br><br><br><br><br>
+    <!--footer inicio-->
+    <div class="footere">
+        <div class="containere"><img src='whatsapp.png'><img src="gmail.png" style="height: 70px; margin-top:18px; background-color: white; border-radius: 50%;">
+            <h4>Feito com <i class="far fa-heart"></i> por um aluno BandTec &COPY; 2020</h4>
+        </div>
+    </div>
+    <!--footer fim-->
+
+    </div>
+</body>
+</html>
+<script>
+    function manutencao(){
+  alert('site em manutenção');
+  alert('por favor, escolha outros tópicos');
+    };
+</script>
+
